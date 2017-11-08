@@ -13,6 +13,11 @@ public class StateMachine {
     StateMachine() {}
 
     String transition(String action){
-        return action;
+
+        String value = list.get(currentState).get(action);
+        if(value != null) {
+            currentState = value;
+        }
+        System.out.println("Suma disponibila: "+currentState);return action;
     }
 }
