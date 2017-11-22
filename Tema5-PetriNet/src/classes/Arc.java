@@ -18,6 +18,8 @@ public class Arc {
             if (capacitate < location.noOfJ) {
                 return true;
             }
+        } else {
+            return true;
         }
         return false;
     }
