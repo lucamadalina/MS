@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         CoffeMachine coffeMachine = new CoffeMachine();
          Scanner scan = new Scanner(System.in);
          System.out.println("Suma introdusa: ");
